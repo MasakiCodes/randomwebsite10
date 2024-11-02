@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Image1.png">
+</head>
+<body>
+<!-- Navbar HTML -->
+<nav style="background-color: #1a1a1a; color: #ccc; padding: 15px; font-family: Arial, sans-serif;">
+    <div style="display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: auto;">
+        <!-- Logo -->
+        <a href="#" style="color: #fff; font-size: 1.5em; text-decoration: none; font-weight: bold;">
+            Tech Company
+        </a>
+        <!-- Navigation Links -->
+        <div class="nav-links" style="display: flex; gap: 20px;">
+            <a href="#home" style="color: #ccc; text-decoration: none;">Home</a>
+            <a href="#about" style="color: #ccc; text-decoration: none;">About Us</a>
+            <a href="#services" style="color: #ccc; text-decoration: none;">Services</a>
+            <a href="#careers" style="color: #ccc; text-decoration: none;">Careers</a>
+            <a href="#contact" style="color: #ccc; text-decoration: none;">Contact</a>
+        </div>
+        <!-- Hamburger Menu Icon for Mobile -->
+        <div class="hamburger" onclick="toggleMenu()" style="display: none; color: #ccc; cursor: pointer;">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+    </div>
+    <!-- Responsive Mobile Menu -->
+    <div class="mobile-menu" style="display: none; flex-direction: column; gap: 10px; padding: 15px; background-color: #1a1a1a;">
+        <a href="#home" style="color: #ccc; text-decoration: none;">Home</a>
+        <a href="#about" style="color: #ccc; text-decoration: none;">About Us</a>
+        <a href="#services" style="color: #ccc; text-decoration: none;">Services</a>
+        <a href="#careers" style="color: #ccc; text-decoration: none;">Careers</a>
+        <a href="#contact" style="color: #ccc; text-decoration: none;">Contact</a>
+    </div>
+</nav>
+<div class="content">
+    <!-- Main Content Section -->
+<section style="background-color: #f5f5f5; padding: 60px 20px; font-family: Arial, sans-serif; text-align: center;">
+    <div style="max-width: 1200px; margin: auto;">
+        <!-- Company Introduction -->
+        <h1 style="color: #333; font-size: 2.5em; font-weight: bold;">Innovative Solutions for a Connected World</h1>
+        <p style="color: #555; font-size: 1.2em; margin: 20px 0;">
+            At Tech Company, we deliver cutting-edge technology to transform your business. Our products are designed to 
+            keep you ahead in a rapidly changing digital landscape.
+        </p>
+
+        <!-- Featured Products Section -->
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-around; margin-top: 40px; gap: 30px;">
+            <!-- Product 1 -->
+            <div style="background-color: #fff; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); width: 300px; border-radius: 10px;">
+                <img src="Image2.jpg" alt="Product 1" style="width: 100%; border-radius: 10px;">
+                <h3 style="color: #333; margin-top: 15px;">Smart AI Assistant</h3>
+                <p style="color: #555;">An AI-powered assistant to streamline your workflow and boost productivity.</p>
+                <button style="background-color: #1a1a1a; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                    Learn More
+                </button>
+            </div>
+
+            <!-- Product 2 -->
+            <div style="background-color: #fff; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); width: 300px; border-radius: 10px;">
+                <img src="Image3.png" alt="Product 2" style="width: 100%; border-radius: 10px;">
+                <h3 style="color: #333; margin-top: 15px;">Cloud Security</h3>
+                <p style="color: #555;">Advanced security solutions to protect your data and ensure compliance.</p>
+                <button style="background-color: #1a1a1a; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                    Learn More
+                </button>
+            </div>
+
+            <!-- Product 3 -->
+            <div style="background-color: #fff; padding: 20px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); width: 300px; border-radius: 10px;">
+                <img src="Image4.jpg" alt="Product 3" style="width: 100%; border-radius: 10px;">
+                <h3 style="color: #333; margin-top: 15px;">IoT Solutions</h3>
+                <p style="color: #555;">Connect and automate your devices with our IoT integration platform.</p>
+                <button style="background-color: #1a1a1a; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                    Learn More
+                </button>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div style="margin-top: 60px;">
+            <p style="color: #333; font-size: 1.3em;">Ready to transform your business?</p>
+            <a href="signinpage.html"><button style="background-color: #0073e6; color: #fff; padding: 15px 30px; font-size: 1em; border: none; border-radius: 5px; cursor: pointer;">
+                Get Started Today
+            </button></a>
+        </div>
+    </div>
+</section>
+
+</div>
+
+    <footer>
+<!-- Footer HTML -->
+<footer class="footer1">
+    <div class="footerdiv1">
+        <!-- Company Info -->
+        <div style="flex: 1; min-width: 200px; margin: 20px;">
+            <h2 style="color: #fff;">Company Name</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dolor fugiat! Iste ad possimus esse quis quidem reprehenderit mollitia inventore nisi! Quia est vel sit, deleniti illo minima eligendi ipsa?</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div style="flex: 1; min-width: 200px; margin: 20px;">
+            <h2 style="color: #fff;">Quick Links</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li><a href="#about" style="color: #ccc; text-decoration: none;">About Us</a></li>
+                <li><a href="#services" style="color: #ccc; text-decoration: none;">Services</a></li>
+                <li><a href="#careers" style="color: #ccc; text-decoration: none;">Careers</a></li>
+                <li><a href="#contact" style="color: #ccc; text-decoration: none;">Contact</a></li>
+                <li><a href="#blog" style="color: #ccc; text-decoration: none;">Blog</a></li>
+            </ul>
+        </div>
+        <!-- Contacts -->
+        <div style="flex: 1; min-width: 200px; margin: 20px;">
+            <h2 style="color: #fff;">Contact Us</h2>
+            <p>Email: <a href="mailto:techcompany@gmail.com" target="_blank" style="color: #ccc;">techcompany@gmail.com</a></p>
+            <p>Phone: <a href="tel:+61403313266" style="color: #ccc;">+61 000 000 000</a></p>
+            <p>Address: 1/1-1 Smith Lane</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div style="flex: 1; min-width: 200px; margin: 20px;">
+            <h2 style="color: #fff;">Follow Us</h2>
+            <a class="sociallinks" href="https://facebook.com" target="_blank" style="color: #ccc; margin-right: 15px; text-decoration: none;">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a class="sociallinks" href="https://twitter.com" target="_blank" style="color: #ccc; margin-right: 15px; text-decoration: none;">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a class="sociallinks" href="https://twitter.com" target="_blank" style="color: #ccc; margin-right: 15px; text-decoration: none;">
+                <a href="https://linkedin.com" target="_blank" style="color: #ccc; margin-right: 15px; text-decoration: none;">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a class="sociallinks" href="https://twitter.com" target="_blank" style="color: #ccc; margin-right: 15px; text-decoration: none;">
+                <a href="https://instagram.com" target="_blank" style="color: #ccc; text-decoration: none;">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 40px; font-size: 0.9em;">
+        <p>&copy; 2024 Tech Company. All rights reserved.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

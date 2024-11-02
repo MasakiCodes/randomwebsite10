@@ -1,0 +1,13 @@
+.footer1 {
+    background-color: #1a1a1a; color: #ccc; padding: 40px; font-family: Arial, sans-serif;
+}
+
+.footerdiv1 {
+    display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 1200px; margin: auto;
+}
+.sociallinks:hover {
+    opacity: 0.7;
+}
+.sociallinks:active {
+    opacity: 0.5;
+}
